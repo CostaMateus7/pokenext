@@ -4,6 +4,9 @@ Uma das vantagens dele é a facilidade de contruir rotas dinâmicas, além de ot
 
 Além disso, foi feito o deploy do projeto na vercel.
 
+Acesse -> pokenext-aaz4jisg4-costamateus7.vercel.app
+
+
 Conteúdos estudados:
 Aprendizados
 - Instalação do projeto: 'npx create-next-app *nome da pasta*'
