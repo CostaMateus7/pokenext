@@ -23,5 +23,7 @@ Aprendizados
 - Fetch data com Next (requisição em API)
 - 404
 - Build
+- Fallback
+- useRouter
 - Vercel
 - Deploy

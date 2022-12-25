@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 import Styles from '../../styles/Pokemon.module.css';
 
 export const getStaticPaths = async () => {
@@ -15,7 +16,7 @@ export const getStaticPaths = async () => {
   }));
   return {
     paths,
-    fallback: false,
+    fallback: true,
   };
 };
 export const getStaticProps = async (context) => {
@@ -30,6 +31,10 @@ export const getStaticProps = async (context) => {
 };
 
 export default function Pokemon({ poke }) {
+  const router = useRouter();
+  if (router.isFallback) {
+    return <h1>Carregando...</h1>;
+  }
   return (
     <section className={Styles.PokeContainer}>
       <h1>{poke.name}</h1>
