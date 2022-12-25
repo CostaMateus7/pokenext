@@ -1,0 +1,18 @@
+.divContainerStyle{
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.divMiniContainerStyle{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.divMiniContainerStyle p{
+  font-size: 18px;
+}

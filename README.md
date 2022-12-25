@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Esse é um projeto de treino chamado Poke Next. Esta aplicação é baseada no curso de Next ministrada pelo Professor Matheus Battisti na plataforma do Youtube. Com este treinamento pude desenvolver minhas habilidades e aprender esse framework do React que é incrível.
 
-## Getting Started
+Uma das vantagens dele é a facilidade de contruir rotas dinâmicas, além de otimizar muito o SEO, que é relacionado ao buscador do google. Essa vantagem em cima do React é porque as página são renderizadas antes, ao contrário do React que possuí uma renderização dinâmica, contruida em JS. Esse projeto demorou cerca de 2 dias para ser contruído, uma vez que foi o tempo que demorei fazendo o curso.
 
-First, run the development server:
+Além disso, foi feito o deploy do projeto na vercel.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Conteúdos estudados:
+Aprendizados
+- Instalação do projeto: 'npx create-next-app *nome da pasta*'
+- Inicialização do projeto no navegador: 'npm run dev'
+- Criação de páginas de Roteamento
+- Nested Routes -> Rotas compostas -> Ex: /products/shirts
+- CSS - Estilização
+- Meta tags
+- Assets
+- Uso de imagens
+- Uso de vídeos
+- GetStaticProps
+- GetStaticPaths
+- Fetch data com Next (requisição em API)
+- 404
+- Build
+- Vercel
+- Deploy

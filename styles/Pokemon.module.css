@@ -1,0 +1,64 @@
+.PokeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  border: solid 0.5px #E33D33;
+  box-shadow: 5px 5px 12px rgba(0,0, 0, 0.5);
+  background-color: #333;
+  margin: auto;
+  padding: 20px;
+  width: 25%;
+  height: 100%;
+  color: #fff;
+}
+.PokeContainer a{
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  padding: 7px 7px;
+  text-decoration: none;
+  margin: 20px;
+  border-radius: 5px;
+  transition: .4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PokeContainer a:hover{
+  background-color: #E33D33;
+  color: #fff;
+}
+
+.PokeContainer h1{
+  font-size: 32px;
+  text-transform: capitalize;
+
+}
+.TypesStyle{
+  display: flex;
+  gap: 18px;
+}
+.TypesStyle span{
+  padding: 7px;
+  background-color: #E33D33;
+  border-radius: 5px;
+}
+.NumberStyle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+@media screen and (max-width: 850px){
+  .PokeContainer{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px){
+  .PokeContainer{
+    width: 80%;
+  }
+}
